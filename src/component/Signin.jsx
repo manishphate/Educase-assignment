@@ -53,7 +53,7 @@ const SignIn = () => {
                                         className='input'
                                         placeholder='Enter email address'
                                     />
-                                    <label className="label" htmlFor="email">Email </label>
+                                    <label className="label" htmlFor="email" style={{marginLeft:"25px"}}>Email </label>
                                 </div>
 
                                 <div className='input-group'>
@@ -66,7 +66,7 @@ const SignIn = () => {
                                         className='input'
                                         placeholder='Enter password'
                                     />
-                                    <label className="label" htmlFor="password">Password </label>
+                                    <label className="label" htmlFor="password" style={{marginLeft:"20px"}}>Password </label>
                                 </div>
                             
                         </div>

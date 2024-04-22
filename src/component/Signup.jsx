@@ -54,7 +54,7 @@ const SignUp = () => {
                                 onChange={handleChange}
                                 className='input'
                             />
-                            <label className="label" htmlFor="full_Name">Full Name <span className='span'>*</span></label>
+                            <label className="label" htmlFor="full_Name" style={{marginLeft:"20px"}}>Full Name <span className='span'>*</span></label>
                         </div>
 
                         <div className='input-group'>
@@ -78,7 +78,7 @@ const SignUp = () => {
                                 onChange={handleChange}
                                 className='input'
                             />
-                            <label className="label" htmlFor="email">Email <span className='span'>*</span></label>
+                            <label className="label" style={{marginLeft:"25px"}} htmlFor="email">Email <span className='span'>*</span></label>
                         </div>
 
                         <div className='input-group'>
@@ -91,7 +91,7 @@ const SignUp = () => {
                                 className='input'
                            
                             />
-                            <label className="label" htmlFor="password">Password <span className='span'>*</span></label>
+                            <label className="label" htmlFor="password" style={{marginLeft:"20px"}}>Password <span className='span'>*</span></label>
                         </div>
 
                         <div className='input-group'>
@@ -103,7 +103,7 @@ const SignUp = () => {
                                 onChange={handleChange}
                                 className='input'
                             />
-                            <label className="label" htmlFor="Company">Company <span className='span'>*</span></label>
+                            <label className="label" htmlFor="Company" style={{marginLeft:"20px"}}>Company <span className='span'>*</span></label>
                         </div>
 
 
