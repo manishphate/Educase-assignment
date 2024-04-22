@@ -3,8 +3,6 @@ body{
     padding: 0;
 }
 
-
-
 .header {
     font-size: 28px; /* Adjust font size as needed */
     color: #000000;
@@ -12,26 +10,15 @@ body{
 }
 
 .header-div{
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
     margin-bottom: 25px;
 }
 
-.form-container {
-    /* max-width: 300px;
-    margin: 0 auto;
-    padding-right: 20px;
-    margin-top: 20px;
-    padding-bottom: 0px;
-    height: 100vh;  */
-
-    
-}
 
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
-    .form-container {
-        height: auto; /* Revert to auto height on larger screens */
-    }
+
 
 }
 
@@ -43,11 +30,12 @@ label {
 input[type='text'],
 input[type='email'],
 textarea {
-    width: 100%;
+    width: calc(100% - 4rem);
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-left: 25px;
 }
 
 button {
@@ -72,28 +60,29 @@ button:hover {
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc(100% - 0rem);
     height: 20px;
+    
 }
-/* background: #7d2ae8; */
 
 
 .input-button {
-    color: #ffffff; /* White text color */
-    padding: 0; /* Remove padding to set height directly */
+    color: #ffffff;
+    padding: 0;
     border: 1px solid #9e9e9e;
     border-radius: 5px;
-    width: calc(100% - 0rem);
-    height: 40px; /* Set button height */
+    /* width: calc(100% - 1rem); */
+    width: calc(100% - 3rem);
+    height: 40px;
     background: #7d2ae8;
     text-align: center;
-    font-size: 16px; /* Adjust font size as needed */
-    font-weight: bold; /* Make the text bold */
-    line-height: 40px; /* Center the text vertically */
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
 }
 
 .label {
     position: absolute;
     top: 1rem;
-    /* left: 0.01rem; */
+    margin-left: 13px;
     color: #d4d4d4;
     pointer-events: none;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -105,13 +94,12 @@ button:hover {
 
 .input:is(:focus, :valid)~label {
     transform: translateY(-120%) scale(0.7);
-    background-color: #fefefe;
+    background-color: rgb(245, 245, 245);
     padding-inline: 0.3rem;
     color: var(--primary);
 }
 
 .input-group {
-    /* background-color: #1a1a1a; */
     font-size: 1.1rem;
     position: relative;
     --primary: #7d2ae8;
@@ -119,11 +107,15 @@ button:hover {
 }
 
 
+.radio-header{
+    margin-left: 20px;
+}
+
+
 .radio-group {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* Optional: Align items vertically */
 }
 
 .radio-group label {
@@ -135,8 +127,7 @@ button:hover {
 }
 
 .radio-button {
-    transform: scale(1.5); /* Adjust the scale factor as needed */
-    /* margin-right: 15px; */
+    transform: scale(1.5);
 }
 
 .radio-label{
@@ -149,13 +140,14 @@ button:hover {
 }
 
 .bottom-button-container {
+    position: absolute;
+    bottom: 20px;
     width: 100%;
-    margin-left: 10px;
     text-align: center;
-    margin-top: 175px; 
+    margin-bottom: 20px;
+    left: 0;
+    right: 0; 
 }
-
-
 
 .span{
     color: red;

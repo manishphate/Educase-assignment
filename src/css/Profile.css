@@ -16,7 +16,7 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-   
+    position: relative;
 }
 
 .profile-header {
@@ -93,6 +93,7 @@ body {
     
     .profile-page {
         height: 740px;
+        
     }
 
     .profile-content {
