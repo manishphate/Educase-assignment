@@ -22,14 +22,9 @@ body {
 .profile-header {
     height: 8%;
     background-color: white;
-    /* Add your header styles */
 }
 
 .profile-content {
-    /* flex-grow: 1; 
-    display: flex;
-    justify-content: center;
-    align-items: center; */
     background-color: rgb(241, 241, 241);
     margin-left: 15px;
     margin-top: 30px;
@@ -44,19 +39,17 @@ body {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #ccc; /* Placeholder color */
+    background-color: #ccc;
     margin-right: 10px;
-    position: relative; /* Ensure proper positioning of the icon */
+    position: relative;
     display: inline-block; 
 }
 
 .user-info {
     display: flex;
     flex-direction: column;
-    /* background-color: aquamarine; */
     margin-top:-4px;
     margin-left: 10px;
-    /* height: 70px; */
 }
 
 
@@ -64,26 +57,27 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #fff; /* Background color of the icon */
-    border-radius: 50%; /* Make the icon circular */
-    padding: 5px; /* Add padding to the icon */
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); 
 }
 
-/* .content-section{
-    height: 60%;
-    background-color: aqua;
-} */
-
 .content-section {
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 60%;
 }
 
-
-/* Add any additional styling you need */
+.dashed-line {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 10px 0; 
+}
 
 @media screen and (min-width: 768px) {
     .profile-container {
@@ -99,6 +93,6 @@ body {
     .profile-content {
         margin-left: auto;
         margin-right: auto;
-        width: 80%; /* Adjust the width as needed */
+        width: 80%;
     }
 }

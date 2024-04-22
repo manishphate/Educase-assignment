@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/Signup.css'; // Import CSS file for styling
+import '../css/Signup.css';
 import { useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
@@ -35,12 +35,6 @@ const SignUp = () => {
         navigate('/profile')
     };
 
-    const savedFormData = JSON.parse(localStorage.getItem('formData'));
-    if (savedFormData) {
-        // Use the saved form data
-        console.log("local strorage", savedFormData);
-    }
-
     return (
         <>
             <div className="home-form-container">
@@ -51,8 +45,6 @@ const SignUp = () => {
                     </div>
 
                     <form onSubmit={handleSubmit}>
-                        {/* <label htmlFor="name">Name:</label> */}
-
                         <div className='input-group'>
                             <input
                                 type="text"
@@ -61,7 +53,6 @@ const SignUp = () => {
                                 value={formData.full_Name}
                                 onChange={handleChange}
                                 className='input'
-                            // required
                             />
                             <label className="label" htmlFor="full_Name">Full Name <span className='span'>*</span></label>
                         </div>
@@ -74,7 +65,6 @@ const SignUp = () => {
                                 value={formData.phone_Number}
                                 onChange={handleChange}
                                 className='input'
-                            // required
                             />
                             <label className="label" htmlFor="phone_Number">Phone Number <span className='span'>*</span></label>
                         </div>
@@ -87,7 +77,6 @@ const SignUp = () => {
                                 value={formData.email}
                                 onChange={handleChange}
                                 className='input'
-                            // required
                             />
                             <label className="label" htmlFor="email">Email <span className='span'>*</span></label>
                         </div>
@@ -100,7 +89,7 @@ const SignUp = () => {
                                 value={formData.password}
                                 onChange={handleChange}
                                 className='input'
-                            // required
+                           
                             />
                             <label className="label" htmlFor="password">Password <span className='span'>*</span></label>
                         </div>
@@ -113,7 +102,6 @@ const SignUp = () => {
                                 value={formData.company}
                                 onChange={handleChange}
                                 className='input'
-                            // required
                             />
                             <label className="label" htmlFor="Company">Company <span className='span'>*</span></label>
                         </div>

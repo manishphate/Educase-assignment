@@ -1,20 +1,16 @@
 import React from 'react';
-import '../css/Profile.css'; // Make sure to import your CSS file
+import '../css/Profile.css';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 
 const Profile = () => {
 
     const savedFormData = JSON.parse(localStorage.getItem('formData'));
-    if (savedFormData) {
-        // Use the saved form data
-        console.log("local strorage",savedFormData);
-    }
     return (
         <>
             <div className='profile-container'>
                 <div className="profile-page">
                     <div className="profile-header">
-                        <h4 style={{ marginLeft: "15px" }}>Account setting</h4>
+                        <h4 style={{ marginLeft: "15px"}}>Account setting</h4>
                     </div>
                     <div className="profile-content">
                         <div className="profile-info">
@@ -46,8 +42,8 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className='content-section'>
-                        <span style={{ fontWeight: 'bold', fontSize: '1rem', color: "gray" }}>-------------------------------------------------------</span>
-                        <span style={{ fontWeight: 'bold', fontSize: '1rem', color: "gray" }}>-------------------------------------------------------</span>
+                        <div className="dashed-line"><span>-------------------------------------------------------</span></div>
+                        <div className="dashed-line"><span>-------------------------------------------------------</span></div>
                     </div>
                 </div>
             </div>

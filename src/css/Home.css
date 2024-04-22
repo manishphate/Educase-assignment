@@ -14,8 +14,6 @@ body{
 .home-header{
     display: flex;
     align-items: flex-end;
-    /* height: 75%; */
-    /* margin-left: 15px; */
     margin-bottom: 5px;
     padding: 0px;
 }
@@ -42,7 +40,6 @@ body{
     }
 
 }
-
 
 .home-input-button {
     color: #ffffff;

@@ -52,7 +52,6 @@ const SignIn = () => {
                                         onChange={handleChange}
                                         className='input'
                                         placeholder='Enter email address'
-                                    // required
                                     />
                                     <label className="label" htmlFor="email">Email </label>
                                 </div>
@@ -66,7 +65,6 @@ const SignIn = () => {
                                         onChange={handleChange}
                                         className='input'
                                         placeholder='Enter password'
-                                    // required
                                     />
                                     <label className="label" htmlFor="password">Password </label>
                                 </div>

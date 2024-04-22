@@ -4,9 +4,9 @@ body{
 }
 
 .header {
-    font-size: 28px; /* Adjust font size as needed */
+    font-size: 28px;
     color: #000000;
-    margin: 0; /* Black color */
+    margin: 0; 
 }
 
 .header-div{
@@ -15,12 +15,6 @@ body{
     margin-bottom: 25px;
 }
 
-
-/* Media query for desktop screens */
-@media screen and (min-width: 768px) {
-
-
-}
 
 label {
     display: block;
@@ -69,7 +63,6 @@ button:hover {
     padding: 0;
     border: 1px solid #9e9e9e;
     border-radius: 5px;
-    /* width: calc(100% - 1rem); */
     width: calc(100% - 3rem);
     height: 40px;
     background: #7d2ae8;
