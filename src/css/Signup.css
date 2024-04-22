@@ -17,12 +17,14 @@ body{
 }
 
 .form-container {
-    max-width: 300px;
+    /* max-width: 300px;
     margin: 0 auto;
     padding-right: 20px;
     margin-top: 20px;
     padding-bottom: 0px;
-    height: 100vh; 
+    height: 100vh;  */
+
+    
 }
 
 /* Media query for desktop screens */

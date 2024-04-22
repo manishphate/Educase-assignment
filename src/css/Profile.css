@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding-left: 0;
+}
+
+.profile-container{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
+}
+
+.profile-page {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.profile-header {
+    height: 8%;
+    background-color: white;
+    /* Add your header styles */
+}
+
+.profile-content {
+    /* flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgb(241, 241, 241);
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ccc; /* Placeholder color */
+    margin-right: 10px;
+    position: relative; /* Ensure proper positioning of the icon */
+    display: inline-block; 
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    margin-top:-4px;
+    margin-left: 10px;
+    /* height: 70px; */
+}
+
+
+.camera-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff; /* Background color of the icon */
+    border-radius: 50%; /* Make the icon circular */
+    padding: 5px; /* Add padding to the icon */
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+}
+
+/* .content-section{
+    height: 60%;
+    background-color: aqua;
+} */
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+
+/* Add any additional styling you need */
+
+@media screen and (min-width: 768px) {
+    .profile-container {
+        max-width: 360px;
+        margin: auto;
+    }
+    
+    .profile-page {
+        height: 740px;
+    }
+
+    .profile-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%; /* Adjust the width as needed */
+    }
+}
