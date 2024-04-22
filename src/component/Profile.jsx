@@ -37,13 +37,13 @@ const Profile = () => {
                                 <p style={{ marginTop: '2px' }}>{savedFormData.email}</p>
                             </div>
                         </div>
-                        <div>
-                            <p style={{ fontSize: '0.9rem' }}>Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam </p>
+                        <div >
+                            <p style={{ fontSize: '0.9rem'}}>Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam </p>
                         </div>
                     </div>
                     <div className='content-section'>
-                        <div className="dashed-line"><span>-------------------------------------------------------</span></div>
-                        <div className="dashed-line"><span>-------------------------------------------------------</span></div>
+                        <div className="dashed-line"><span style={{color:"#cecece"}}>-------------------------------------------------------</span></div>
+                        <div className="dashed-line"><span style={{color:"#cecece"}}>-------------------------------------------------------</span></div>
                     </div>
                 </div>
             </div>
