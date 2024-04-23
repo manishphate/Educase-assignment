@@ -38,7 +38,7 @@ const SignIn = () => {
                 <div className='profile-page'>
                     <form onSubmit={handleSubmit}>
                         <div className='signin-header' >
-                            <div className='signin-header-container' style={{ marginTop: "40px", marginLeft: "20px" }}>
+                            <div className='signin-header-container' style={{ marginTop: "40px", marginLeft: "25px" }}>
                                 <h2 style={{ marginBottom: "10px" }}>Signin to your <br /> PopX account</h2>
                                 <span style={{ paddingTop: "20px" }}>Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit.</span>
                             </div>
