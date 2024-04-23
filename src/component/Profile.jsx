@@ -42,8 +42,8 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className='content-section'>
-                        <div className="dashed-line"><span style={{color:"#cecece"}}>-------------------------------------------------------</span></div>
-                        <div className="dashed-line"><span style={{color:"#cecece"}}>-------------------------------------------------------</span></div>
+                        <div className="dashed-line"><span style={{color:"#cecece"}}>---------------------------------------------------------------------</span></div>
+                        <div className="dashed-line"><span style={{color:"#cecece"}}>---------------------------------------------------------------------</span></div>
                     </div>
                 </div>
             </div>
